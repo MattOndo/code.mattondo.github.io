@@ -1,7 +1,7 @@
 {
-  "name": "vue-router-app",
+  "name": "mattondo.github.io",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "My Vue.js project",
   "author": "Matt Ondo <themattondo@gmail.com>",
   "homepage": "git@github.com:MattOndo/mattondo.github.io",
   "private": true,
@@ -9,8 +9,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js --b master",
-    "publish": "npm run build; push-dir --dir=dist --branch=master --cleanup"
+    "deploy": "node build/build.js && gh-pages -d dist -b master"
   },
   "dependencies": {
     "jquery": "^3.3.1",
@@ -43,7 +42,6 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
-    "push-dir": "^0.4.1",
     "rimraf": "^2.6.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
