@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="sans-serif flex flex-column min-vh-100">
+  <div id="app" class="flex flex-column min-vh-100">
     <TopBar />
     <main class="flex-grow-1 w-100 ph4 mw8 center">
       <router-view/>
@@ -21,6 +21,13 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.lh0 {
+  line-height: 0;
+}
 #menu {
   display:none;
 }
@@ -40,8 +47,8 @@ export default {
   transition: 0.4s;
 }
 #menuIcon.active .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-8px, 7px);
+  transform: rotate(-45deg) translate(-8px, 6px);
 }
 #menuIcon.active .bar2 {
   opacity: 0;
