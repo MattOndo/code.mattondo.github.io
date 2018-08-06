@@ -6,7 +6,7 @@
       <div class="bar3 bg-near-black "></div>
     </div>
     <div class="flex-grow-0 w4 w3-ns">
-      <img src="../assets/coconuttmonkeyicon.svg">
+      <router-link :to="{ name: 'Home' }"><img src="../assets/coconuttmonkeyicon.svg" class="grow"></router-link>
     </div>
     <div id="menu" class="flex-grow-1 w-100">
       <ul class="list pl0 tr-ns w-100">
@@ -21,7 +21,6 @@
 
 <script>
 import router from '../router'
-
 var routes = router.options.routes
 
 export default {

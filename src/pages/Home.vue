@@ -1,12 +1,15 @@
 <template>
-  <div class="hello">
-    <h1>{{ title }}</h1>
+  <div>
+    <UnderConstruction />
   </div>
 </template>
 
 <script>
+import UnderConstruction from '@/components/UnderConstruction'
+
 export default {
   name: 'Home',
+  components: { UnderConstruction },
   data () {
     return {
       title: 'Home'
