@@ -58,6 +58,20 @@ body {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.html       { background-color: #fc480b; color: #fff; }
+.js         { background-color: #ffe200; color: #000; }
+.css        { background-color: #2296f3; color: #fff; }
+.php        { background-color: #8e9ed1; color: #fff; }
+.email      { background-color: green; color: #fff; }
+.marketo    { background-color: #7b63b0; color: #fff; }
+.eloqua     { background-color: #ed2129; color: #fff; }
+.pardot     { background-color: #009ddc; color: #fff; }
+.hubspot    { background-color: #ff7958; color: #fff; }
+.mailchimp  { background-color: #239AB9; color: #fff; }
+.ion        { background-color: #ff5d00; color: #fff; }
+.wordpress  { background-color: #0087be; color: #fff; }
+.vue        { background-color: #4fc08d; color: #fff; }
+
 @media screen and (min-width: 30rem) {
   #menuIcon {
     display: none;

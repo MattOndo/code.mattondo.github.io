@@ -11,7 +11,7 @@
     <div id="menu" class="flex-grow-1 w-100">
       <ul class="list pl0 tr-ns w-100">
         <li class="db dib-ns mb3 mb0-ns" v-for="route in routes">
-          <router-link class="db dib-ns grow link pv2 ph3 ba bw1 b--blue blue hover-bg-blue hover-white fw7 ttl tc ml2" :to="{ name: route.name }">{{route.name}}</router-link>
+          <router-link class="db dib-ns grow link pv2 ph3 ba bw1 b--blue blue hover-bg-blue hover-white fw7 ttl tc ml2" :class="route.name" :to="{ name: route.name }">{{route.name}}</router-link>
         </li>
       </ul>
     </div>
@@ -46,3 +46,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.Project {
+  display: none;
+}
+</style>

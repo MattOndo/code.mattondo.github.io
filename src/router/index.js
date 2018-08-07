@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/pages/Home'
 import About from '@/pages/About'
 import Portfolio from '@/pages/Portfolio'
+import Project from '@/pages/Project'
 import Contact from '@/pages/Contact'
 
 Vue.use(Router)
@@ -52,6 +53,24 @@ export default new Router({
       component: Portfolio,
       meta: {
         title: 'Matt Ondo | Portfolio',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'Matt Ondo\'s Portfolio of Work.'
+          },
+          {
+            property: 'og:description',
+            content: 'Matt Ondo\'s Portfolio of Work.'
+          }
+        ]
+      }
+    },
+    {
+      path: '/project/:pathname',
+      name: 'Project',
+      component: Project,
+      meta: {
+        title: 'Matt Ondo | Project',
         metaTags: [
           {
             name: 'description',
