@@ -24,8 +24,8 @@
 */
 const projects = [
     {
-        name: 'Project 1',
-        pathname: 'project-1',
+        name: 'Vue JS Webiste',
+        pathname: 'vue-js-website',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -36,8 +36,8 @@ const projects = [
         ]
     },
     {
-        name: 'Project 2',
-        pathname: 'project-2',
+        name: 'Marketo Email Template',
+        pathname: 'marketo-email-template',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -48,8 +48,8 @@ const projects = [
         ]
     },
     {
-        name: 'Project 3',
-        pathname: 'project-3',
+        name: 'Wordpress Website',
+        pathname: 'wordpress-website',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -61,8 +61,8 @@ const projects = [
         ]
     },
     {
-        name: 'Project 4',
-        pathname: 'project-4',
+        name: 'Interactive Content',
+        pathname: 'interactive-content',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -73,8 +73,8 @@ const projects = [
         ]
     },
     {
-        name: 'Project 5',
-        pathname: 'project-5',
+        name: 'Eloqua Campaign',
+        pathname: 'eloqua-campaign',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -82,11 +82,12 @@ const projects = [
             { name: 'js' },
             { name: 'css' },
             { name: 'eloqua' },
+            { name: 'email' },
         ]
     },
     {
-        name: 'Project 6',
-        pathname: 'project-6',
+        name: 'Pardot Form Layout',
+        pathname: 'pardot-form-layout',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -97,8 +98,8 @@ const projects = [
         ]
     },
     {
-        name: 'Project 7',
-        pathname: 'project-7',
+        name: 'Hubspot Template',
+        pathname: 'hubspot-template',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -109,8 +110,8 @@ const projects = [
         ]
     },
     {
-        name: 'Project 8',
-        pathname: 'project-8',
+        name: 'MailChimp Emails',
+        pathname: 'mailchimp-emails',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -121,8 +122,8 @@ const projects = [
         ]
     },
     {
-        name: 'Project 9',
-        pathname: 'project-9',
+        name: 'Email Development',
+        pathname: 'email-development',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
@@ -132,14 +133,13 @@ const projects = [
         ]
     },
     {
-        name: 'Project 10',
-        pathname: 'project-10',
+        name: 'Fancy Buttons',
+        pathname: 'fancy-buttons',
         thumbnail: '/static/800x800.png',
         description: '<p>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>',
         technologies: [
             { name: 'html' },
             { name: 'css' },
-            { name: 'js' },
         ]
     },
 ]
