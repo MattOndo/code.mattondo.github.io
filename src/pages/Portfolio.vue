@@ -1,6 +1,8 @@
 <template>
-  <div class="flex flex-column flex-row-ns flex-wrap items-top">
-    <div v-for="project in projects" class="flex w-100 w-33-m w-25-l relative">
+  <div class="flex flex-column flex-row-ns flex-wrap items-top ph4 mw8 center">
+    <div v-for="(project, index) in projects" 
+         :key="index"
+         class="flex w-100 w-33-m w-25-l relative">
       <PortfolioSingle 
         :name="project.name" 
         :pathname="project.pathname" 

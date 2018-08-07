@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="ph4 mw8 center">
     <h1>{{ title }}</h1>
     <div>
       <p class="lh-copy">

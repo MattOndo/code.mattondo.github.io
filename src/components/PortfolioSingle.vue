@@ -10,9 +10,10 @@
                 </div>
                 <div class="flex flex-row flex-wrap items-center f7 lh3 mt1 tc ttu">
                     <small v-for="(technology, index) in this.technologies" 
-                        class="dib ma1 br1 pa1" 
-                        v-bind:class="technology.name">
-                        {{ technology.name }}
+                           :key="index"
+                           class="dib ma1 br1 pa1" 
+                           v-bind:class="technology.name">
+                           {{ technology.name }}
                     </small>
                 </div>
             </div>

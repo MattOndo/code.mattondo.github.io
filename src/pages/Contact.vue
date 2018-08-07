@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="ph4 mw8 center">
     <UnderConstruction />
   </div>
 </template>

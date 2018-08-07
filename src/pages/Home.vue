@@ -1,15 +1,23 @@
 <template>
-  <div>
-    <UnderConstruction />
+  <div class="w-100">
+    <div class="ph4 mw8 center">
+      <h2>Heading</h2>
+    </div>
+    <div class="w-100 relative bg-skew-n3-blue white pv5 mv5">
+      <div class="ph4 mw8 center">
+        <h2 class="mt0">Another Heading</h2>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import UnderConstruction from '@/components/UnderConstruction'
 
 export default {
   name: 'Home',
-  components: { UnderConstruction },
   data () {
     return {
       title: 'Home'
@@ -20,5 +28,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.bg-skew-n3-blue:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: -99;
+  background-color: #357edd;
+  width: 100%;
+  height: 100%;
+  transform: skewY(-3deg);
+}
 </style>

@@ -1,17 +1,18 @@
 <template>
-  <div id="top-bar" class="flex flex-column flex-row-ns items-center pa3 flex-grow-0">
-    <div id="menuIcon" class="block absolute top-0 right-0 ma2 pointer" v-on="{ click: menuIconToggle }" v-bind:class="{ active: isActive }">
-      <div class="bar1 bg-near-black "></div>
-      <div class="bar2 bg-near-black "></div>
-      <div class="bar3 bg-near-black "></div>
+  <div id="top-bar" class="flex flex-column flex-row-ns items-center pa3 flex-grow-0 relative">
+    <div class="flex flex-row flex-grow-0 items-center justify-between w-100 w-50-ns">
+      <router-link :to="{ name: 'Home' }"><img src="../assets/coconuttmonkeyicon.svg" class="flex-grow-0 grow w3"></router-link>
+      <h1 class="dib ma0 mh3 mr0-ns tc tl-ns flex-grow-1">Matt Ondo</h1>
+      <div id="menuIcon" class="flex-grow-0 ma2 pointer" v-on="{ click: menuIconToggle }" v-bind:class="{ active: isActive }">
+        <div class="bar1 bg-near-black "></div>
+        <div class="bar2 bg-near-black "></div>
+        <div class="bar3 bg-near-black "></div>
+      </div>
     </div>
-    <div class="flex-grow-0 w4 w3-ns">
-      <router-link :to="{ name: 'Home' }"><img src="../assets/coconuttmonkeyicon.svg" class="grow"></router-link>
-    </div>
-    <div id="menu" class="flex-grow-1 w-100">
-      <ul class="list pl0 tr-ns w-100">
-        <li class="db dib-ns mb3 mb0-ns" v-for="route in routes">
-          <router-link class="db dib-ns grow link pv2 ph3 ba bw1 b--blue blue hover-bg-blue hover-white fw7 ttl tc ml2" :class="route.name" :to="{ name: route.name }">{{route.name}}</router-link>
+    <div id="menu" class="flex-grow-1 flex-grow-0-ns w-100 absolute relative-ns left-0 bg-white-80" style="">
+      <ul class="list pl0 tr-ns w-100 ma3">
+        <li v-for="(route, id) in routes" :key="id" class="db dib-ns mb3 ma2-ns" :class="route.name" >
+          <router-link class="db dib-ns grow link pv2 ph3 bg-white ba bw1 b--blue blue hover-bg-blue hover-white fw7 ttl tc" :to="{ name: route.name }">{{route.name}}</router-link>
         </li>
       </ul>
     </div>
@@ -50,5 +51,45 @@ export default {
 <style scoped>
 .Project {
   display: none;
+}
+#menu {
+  display:none;
+  z-index: 999999; 
+  top: 100%;
+}
+#menu.active {
+  display: flex;
+}
+#menu ul > li > a.is-active {
+  background-color: #357edd;
+  color: #ffffff;
+}
+#menuIcon .bar1,
+#menuIcon .bar2,
+#menuIcon .bar3 {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+#menuIcon.active .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 7px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+#menuIcon.active .bar2 {
+  opacity: 0;
+}
+#menuIcon.active .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+@media screen and (min-width: 30rem) {
+  #menuIcon {
+    display: none;
+  }
+  #menu {
+    display:flex;
+    top: unset;
+  }
 }
 </style>
