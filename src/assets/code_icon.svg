@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14.505497mm"
+   height="9.8319168mm"
+   viewBox="0 0 14.505497 9.8319168"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (3ce5693, 2018-03-11)"
+   sodipodi:docname="code_icon.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3741">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g3737"
+         id="use3743"
+         width="100%"
+         height="100%" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="16.421002"
+     inkscape:cy="7.8998132"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3734"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1080"
+     inkscape:window-y="425"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-70.358983,-94.677794)">
+    <g
+       aria-label="&lt; / &gt;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text3722">
+      <g
+         id="g3734"
+         transform="translate(-3.2127976,0.14174107)">
+        <g
+           id="g3750">
+          <g
+             clip-path="url(#clipPath3741)"
+             id="g3739">
+            <g
+               id="g3737"
+               inkscape:label="Clip" />
+          </g>
+          <g
+             id="g4580">
+            <path
+               d="m 77.709864,96.287597 0.740834,1.153583 -3.439584,2.010834 3.439584,1.968506 -0.762,1.19591 -4.116917,-2.56117 v -1.195914 z"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+               id="path3724"
+               inkscape:connector-curvature="0" />
+            <path
+               inkscape:transform-center-y="-0.13363476"
+               inkscape:transform-center-x="-0.13363477"
+               inkscape:connector-curvature="0"
+               id="path3726"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.26458332"
+               d="m 79.258191,104.36797 -1.30175,-0.60325 4.445,-9.228667 1.291166,0.60325 z" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path3728"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.26458332"
+               d="m 83.939195,96.287596 4.138083,2.561167 v 1.206497 l -4.127499,2.56117 -0.751417,-1.143 3.428996,-2.021417 -3.428996,-1.957917 z" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
